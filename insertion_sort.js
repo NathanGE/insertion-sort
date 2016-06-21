@@ -1,3 +1,4 @@
+// insertion sort in JavaScript
 function insert(array, rightIndex, value){
   for(var i = rightIndex; i >= 0 && value < array[i]; i--){
     array[i + 1] = array[i]
